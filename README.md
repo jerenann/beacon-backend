@@ -1,13 +1,11 @@
----
-
 ## Key Features
 
 - **Automated Data Preprocessing**: Robust pipeline handling missing value imputation, one-hot encoding, and numerical normalization.
 - **Probabilistic Risk Scoring**: Calibrated classification output providing probability percentiles alongside binary classifications.
 - **Risk Stratification**: Automatic classification into actionable tiers:
-  - `Low Risk` ($p < 0.35$)
-  - `Moderate Risk` ($0.35 \\le p < 0.70$)
-  - `High Risk` ($p \\ge 0.70$)
+  - 'Low Risk' ($p < 0.35$)
+  - 'Moderate Risk' ($0.35 \\le p < 0.70$)
+  - 'High Risk' ($p \\ge 0.70$)
 - **RESTful Endpoints**: Clean, decoupled API endpoints returning structured JSON for frontend dashboards and client integrations.
 - **Explainable Metrics**: Extraction of primary feature importance drivers to assist academic counselors.
 
